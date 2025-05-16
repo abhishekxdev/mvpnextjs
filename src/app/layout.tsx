@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "MVP Studio",
     images: [
       {
-        url: "https://mvpstudio.in/og.png",
+        url: "https://mvpstudio.in/images/og.png",
         width: 1200,
         height: 630,
         alt: "MVP Studio Preview",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MVP Studio",
     description: "Build MVPs That Dominate and Grow",
-    images: ["https://mvpstudio.in/og.png"],
+    images: ["https://mvpstudio.in/images/og.png"],
   },
   metadataBase: new URL('https://mvpstudio.in'),
 }
