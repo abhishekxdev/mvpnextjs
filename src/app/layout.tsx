@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -38,6 +39,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:title" content="MVP Studio" />
+        <meta property="og:description" content="Build MVPs That Dominate and Grow" />
+        <meta property="og:url" content="https://mvpstudio.in" />
+        <meta property="og:site_name" content="MVP Studio" />
+        <meta property="og:image" content="https://mvpstudio.in/images/og.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:type" content="website" />
+        
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="MVP Studio" />
+        <meta name="twitter:description" content="Build MVPs That Dominate and Grow" />
+        <meta name="twitter:image" content="https://mvpstudio.in/images/og.png" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
