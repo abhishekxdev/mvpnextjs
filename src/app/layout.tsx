@@ -11,11 +11,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MVP Studio",
     description: "Build MVPs That Dominate and Grow",
-    url: "https://mvpstudio.in",
+    url: "https://mvpstudio.in, http://localhost:3000",
     siteName: "MVP Studio",
     images: [
       {
-        url: "/opengraph-image",
+        url: "/og.png",
         width: 1200,
         height: 630,
         alt: "MVP Studio Preview",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MVP Studio",
     description: "Build MVPs That Dominate and Grow",
-    images: ["/opengraph-image"],
+    images: ["/og.png"],
   },
   metadataBase: new URL('https://mvpstudio.in'),
 }
@@ -44,7 +44,7 @@ export default function RootLayout({
         <meta property="og:description" content="Build MVPs That Dominate and Grow" />
         <meta property="og:url" content="https://mvpstudio.in" />
         <meta property="og:site_name" content="MVP Studio" />
-        <meta property="og:image" content="/opengraph-image" />
+        <meta property="og:image" content="/og.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
@@ -52,7 +52,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="MVP Studio" />
         <meta name="twitter:description" content="Build MVPs That Dominate and Grow" />
-        <meta name="twitter:image" content="/opengraph-image" />
+        <meta name="twitter:image" content="/og.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
