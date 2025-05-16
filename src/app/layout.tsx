@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MVP Studio",
     description: "Build MVPs That Dominate and Grow",
-    url: "https://mvpstudio.in, http://localhost:3000",
+    url: "https://mvpstudio.in",
     siteName: "MVP Studio",
     images: [
       {
-        url: "/images/MockupMVP@.jpg",
+        url: "https://mvpstudio.in/images/MockupMVP@.jpg",
         width: 1200,
         height: 630,
         alt: "MVP Studio Preview",
@@ -26,8 +26,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "MVP Studio",
     description: "Build MVPs That Dominate and Grow",
-    images: ["/images/MockupMVP@.jpg"],
+    images: ["https://mvpstudio.in/images/MockupMVP@.jpg"],
   },
+  metadataBase: new URL('https://mvpstudio.in'),
 }
 
 export default function RootLayout({
