@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "MVP Studio",
     images: [
       {
-        url: "/og.png",
+        url: "/images/og.png",
         width: 1200,
         height: 630,
         alt: "MVP Studio Preview",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: "MVP Studio",
     description: "Build MVPs That Dominate and Grow",
     creator: "@mvpstudio",
-    images: ["/og.png"],
+    images: ["/images/og.png"],
   },
 }
 

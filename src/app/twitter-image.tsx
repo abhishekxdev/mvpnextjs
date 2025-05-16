@@ -1,1 +1,0 @@
-// Delete this file as we're using a static image instead
