@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "MVP Studio",
     images: [
       {
-        url: "/og.png", // Make sure this image exists in the public directory
+        url: "/og.png",
         width: 1200,
         height: 630,
         alt: "MVP Studio Preview",
