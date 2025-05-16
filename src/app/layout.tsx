@@ -5,30 +5,28 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'MVP Studio - Build MVPs That Dominate and Grow',
-  description: 'Launch with confidence — we develop MVPs across Web, Mobile, and AI to help you validate before scaling.',
+  title: "MVP Studio",
+  description: "Build MVPs That Dominate and Grow",
   openGraph: {
-    title: 'MVP Studio - Build MVPs That Dominate and Grow',
-    description: 'Launch with confidence — we develop MVPs across Web, Mobile, and AI to help you validate before scaling.',
-    url: 'https://mvpstudio.com',
-    siteName: 'MVP Studio',
+    title: "MVP Studio",
+    description: "Build MVPs That Dominate and Grow",
+    url: "https://mvpstudio.com, http://localhost:3000",
+    siteName: "MVP Studio",
     images: [
       {
-        url: '/images/MockupMVP@.jpg',
+        url: "/images/MockupMVP@.jpg",
         width: 1200,
         height: 630,
-        alt: 'MVP Studio Preview',
+        alt: "MVP Studio Preview",
       },
     ],
-    locale: 'en_US',
-    type: 'website',
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'MVP Studio - Build MVPs That Dominate and Grow',
-    description: 'Launch with confidence — we develop MVPs across Web, Mobile, and AI to help you validate before scaling.',
-    images: ['/images/MockupMVP@.jpg'],
-    creator: '@abhishekxdev',
+    card: "summary_large_image",
+    title: "MVP Studio",
+    description: "Build MVPs That Dominate and Grow",
+    images: ["/images/MockupMVP@.jpg"],
   },
 }
 
