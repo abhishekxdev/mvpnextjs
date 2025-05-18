@@ -75,9 +75,9 @@ const Pricing = () => {
   const pricingOptions = [
     {
       title: 'Landing Page',
-      price: '$500',
+      price: '$900',
       features: [
-        'Multi Page Design',
+        'Single Page Design',
         'Responsive Layout',
         'Basic SEO Setup',
         'Contact Form Integration',
@@ -93,7 +93,7 @@ const Pricing = () => {
       title: 'Standard Plan',
       price: '$1500',
       features: [
-        'MVP ready in 4–5 weeks',
+        'MVP ready in 2 weeks',
         'Webapp with modern, scalable tech',
         'Seamless integrations: payments, auth & more',
         '30 days free maintenance post-launch',
