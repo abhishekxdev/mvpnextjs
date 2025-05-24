@@ -121,8 +121,8 @@ const FAQ = () => {
           className="text-center text-gray-600 mt-12"
         >
           Need help with something else? Simply send us an email at{' '}
-          <a href="mailto:support@mvpstudio.com" className="font-bold text-indigo-600 hover:text-indigo-500 transition-colors">
-            support@mvpstudio.com
+          <a href="mailto:support@mvpstudio.in" className="font-bold text-indigo-600 hover:text-indigo-500 transition-colors">
+            support@mvpstudio.in
           </a>
         </motion.p>
       </div>
