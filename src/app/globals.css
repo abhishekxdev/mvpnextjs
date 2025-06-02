@@ -25,7 +25,8 @@ html {
 
 body {
   font-family: var(--font-manrope);
-  @apply bg-gray-900 text-gray-100;
+  color: #00000000;
+  background: transparent;
 }
 
 .font-satoshi {
@@ -33,11 +34,11 @@ body {
 }
 
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-indigo-200;
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-indigo-800;
 }
 
 .hero-gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-br from-indigo-400 to-indigo-200;
+  @apply bg-clip-text text-transparent bg-gradient-to-br from-indigo-600 to-indigo-800;
 }
 
 .gradient-bg {
@@ -57,7 +58,12 @@ body {
 }
 
 section {
-  @apply bg-gray-900/40;
+  @apply bg-white/40;
+}
+
+.portfolio-box {
+  position: relative;
+  transform-style: preserve-3d;
 }
 
 .portfolio-box::before {
@@ -105,23 +111,23 @@ section {
   }
   
   .heading-xl {
-    @apply text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-100;
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-black;
   }
   
   .heading-lg {
-    @apply text-3xl sm:text-4xl font-bold tracking-tight text-gray-100;
+    @apply text-3xl sm:text-4xl font-bold tracking-tight text-black;
   }
   
   .heading-md {
-    @apply text-2xl sm:text-3xl font-bold text-gray-100;
+    @apply text-2xl sm:text-3xl font-bold text-black;
   }
   
   .body-lg {
-    @apply text-lg text-gray-300;
+    @apply text-lg text-black;
   }
   
   .body-md {
-    @apply text-base text-gray-300;
+    @apply text-base text-black;
   }
   
   .btn {
@@ -129,6 +135,6 @@ section {
   }
   
   .card {
-    @apply bg-gray-800/90 rounded-2xl p-6 shadow-lg border border-gray-700;
+    @apply bg-white/90 rounded-2xl p-6 shadow-lg border border-gray-200;
   }
 }
