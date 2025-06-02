@@ -16,9 +16,9 @@ import Services from './components/Services';
 
 export default function App() {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen bg-gray-900">
       <div 
-        className="fixed inset-0 w-screen h-screen bg-[url('/images/backart2.jpg')] bg-cover bg-center bg-no-repeat bg-fixed animate-fade-in"
+        className="fixed inset-0 w-screen h-screen bg-[url('/images/backart2.jpg')] bg-cover bg-center bg-no-repeat bg-fixed animate-fade-in opacity-10"
       />
       
       <div className="relative z-10">
